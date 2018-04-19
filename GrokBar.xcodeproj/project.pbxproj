@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6903B01A20893E27001D9A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903B01920893E27001D9A11 /* AppDelegate.swift */; };
+		6903B01C20893E27001D9A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903B01B20893E27001D9A11 /* ViewController.swift */; };
+		6903B01E20893E28001D9A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6903B01D20893E28001D9A11 /* Assets.xcassets */; };
+		6903B02120893E28001D9A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6903B01F20893E28001D9A11 /* Main.storyboard */; };
+		6903B02D20893E28001D9A11 /* GrokBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903B02C20893E28001D9A11 /* GrokBarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6903B02920893E28001D9A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6903B00E20893E27001D9A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6903B01520893E27001D9A11;
+			remoteInfo = GrokBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6903B01620893E27001D9A11 /* GrokBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrokBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6903B01920893E27001D9A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6903B01B20893E27001D9A11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6903B01D20893E28001D9A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6903B02020893E28001D9A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6903B02220893E28001D9A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6903B02320893E28001D9A11 /* GrokBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GrokBar.entitlements; sourceTree = "<group>"; };
+		6903B02820893E28001D9A11 /* GrokBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrokBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6903B02C20893E28001D9A11 /* GrokBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokBarTests.swift; sourceTree = "<group>"; };
+		6903B02E20893E28001D9A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6903B01320893E27001D9A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903B02520893E28001D9A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6903B00D20893E27001D9A11 = {
+			isa = PBXGroup;
+			children = (
+				6903B01820893E27001D9A11 /* GrokBar */,
+				6903B02B20893E28001D9A11 /* GrokBarTests */,
+				6903B01720893E27001D9A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6903B01720893E27001D9A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6903B01620893E27001D9A11 /* GrokBar.app */,
+				6903B02820893E28001D9A11 /* GrokBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6903B01820893E27001D9A11 /* GrokBar */ = {
+			isa = PBXGroup;
+			children = (
+				6903B01920893E27001D9A11 /* AppDelegate.swift */,
+				6903B01B20893E27001D9A11 /* ViewController.swift */,
+				6903B01D20893E28001D9A11 /* Assets.xcassets */,
+				6903B01F20893E28001D9A11 /* Main.storyboard */,
+				6903B02220893E28001D9A11 /* Info.plist */,
+				6903B02320893E28001D9A11 /* GrokBar.entitlements */,
+			);
+			path = GrokBar;
+			sourceTree = "<group>";
+		};
+		6903B02B20893E28001D9A11 /* GrokBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				6903B02C20893E28001D9A11 /* GrokBarTests.swift */,
+				6903B02E20893E28001D9A11 /* Info.plist */,
+			);
+			path = GrokBarTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6903B01520893E27001D9A11 /* GrokBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6903B03120893E28001D9A11 /* Build configuration list for PBXNativeTarget "GrokBar" */;
+			buildPhases = (
+				6903B01220893E27001D9A11 /* Sources */,
+				6903B01320893E27001D9A11 /* Frameworks */,
+				6903B01420893E27001D9A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrokBar;
+			productName = GrokBar;
+			productReference = 6903B01620893E27001D9A11 /* GrokBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6903B02720893E28001D9A11 /* GrokBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6903B03420893E28001D9A11 /* Build configuration list for PBXNativeTarget "GrokBarTests" */;
+			buildPhases = (
+				6903B02420893E28001D9A11 /* Sources */,
+				6903B02520893E28001D9A11 /* Frameworks */,
+				6903B02620893E28001D9A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6903B02A20893E28001D9A11 /* PBXTargetDependency */,
+			);
+			name = GrokBarTests;
+			productName = GrokBarTests;
+			productReference = 6903B02820893E28001D9A11 /* GrokBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6903B00E20893E27001D9A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ryanStone;
+				TargetAttributes = {
+					6903B01520893E27001D9A11 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					6903B02720893E28001D9A11 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6903B01520893E27001D9A11;
+					};
+				};
+			};
+			buildConfigurationList = 6903B01120893E27001D9A11 /* Build configuration list for PBXProject "GrokBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6903B00D20893E27001D9A11;
+			productRefGroup = 6903B01720893E27001D9A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6903B01520893E27001D9A11 /* GrokBar */,
+				6903B02720893E28001D9A11 /* GrokBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6903B01420893E27001D9A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6903B01E20893E28001D9A11 /* Assets.xcassets in Resources */,
+				6903B02120893E28001D9A11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903B02620893E28001D9A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6903B01220893E27001D9A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6903B01C20893E27001D9A11 /* ViewController.swift in Sources */,
+				6903B01A20893E27001D9A11 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903B02420893E28001D9A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6903B02D20893E28001D9A11 /* GrokBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6903B02A20893E28001D9A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6903B01520893E27001D9A11 /* GrokBar */;
+			targetProxy = 6903B02920893E28001D9A11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6903B01F20893E28001D9A11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6903B02020893E28001D9A11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6903B02F20893E28001D9A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6903B03020893E28001D9A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6903B03220893E28001D9A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GrokBar/GrokBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZVRNHU225Q;
+				INFOPLIST_FILE = GrokBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		6903B03320893E28001D9A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GrokBar/GrokBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZVRNHU225Q;
+				INFOPLIST_FILE = GrokBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		6903B03520893E28001D9A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZVRNHU225Q;
+				INFOPLIST_FILE = GrokBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrokBar.app/Contents/MacOS/GrokBar";
+			};
+			name = Debug;
+		};
+		6903B03620893E28001D9A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZVRNHU225Q;
+				INFOPLIST_FILE = GrokBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrokBar.app/Contents/MacOS/GrokBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6903B01120893E27001D9A11 /* Build configuration list for PBXProject "GrokBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903B02F20893E28001D9A11 /* Debug */,
+				6903B03020893E28001D9A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6903B03120893E28001D9A11 /* Build configuration list for PBXNativeTarget "GrokBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903B03220893E28001D9A11 /* Debug */,
+				6903B03320893E28001D9A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6903B03420893E28001D9A11 /* Build configuration list for PBXNativeTarget "GrokBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903B03520893E28001D9A11 /* Debug */,
+				6903B03620893E28001D9A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6903B00E20893E27001D9A11 /* Project object */;
+}
