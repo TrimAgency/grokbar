@@ -13,6 +13,8 @@
 		6903B02120893E28001D9A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6903B01F20893E28001D9A11 /* Main.storyboard */; };
 		6903B02D20893E28001D9A11 /* GrokBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903B02C20893E28001D9A11 /* GrokBarTests.swift */; };
 		6903B039208940BB001D9A11 /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903B038208940BB001D9A11 /* menu.swift */; };
+		835AD383F9D6CB4C85D6796D /* Pods_GrokBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC73496B598C330D311894E /* Pods_GrokBar.framework */; };
+		C6C3CF946573A49E67FCDB7B /* Pods_GrokBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1755B8F2ACB78610C3718A6 /* Pods_GrokBarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27FB84167A4E3B848458FF6C /* Pods-GrokBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBar/Pods-GrokBar.release.xcconfig"; sourceTree = "<group>"; };
 		6903B01620893E27001D9A11 /* GrokBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrokBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6903B01920893E27001D9A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6903B01B20893E27001D9A11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +40,11 @@
 		6903B02C20893E28001D9A11 /* GrokBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrokBarTests.swift; sourceTree = "<group>"; };
 		6903B02E20893E28001D9A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6903B038208940BB001D9A11 /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
+		7BD53859541F438897AC2EF7 /* Pods-GrokBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBar/Pods-GrokBar.debug.xcconfig"; sourceTree = "<group>"; };
+		8FC73496B598C330D311894E /* Pods_GrokBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrokBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		950FC68F3931F22962C1A13E /* Pods-GrokBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBarTests/Pods-GrokBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3B5533DBAE1BFF3832CDCD9 /* Pods-GrokBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrokBarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrokBarTests/Pods-GrokBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1755B8F2ACB78610C3718A6 /* Pods_GrokBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrokBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835AD383F9D6CB4C85D6796D /* Pods_GrokBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,18 +60,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6C3CF946573A49E67FCDB7B /* Pods_GrokBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A0B9CCDC390E748DCCE1907 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BD53859541F438897AC2EF7 /* Pods-GrokBar.debug.xcconfig */,
+				27FB84167A4E3B848458FF6C /* Pods-GrokBar.release.xcconfig */,
+				E3B5533DBAE1BFF3832CDCD9 /* Pods-GrokBarTests.debug.xcconfig */,
+				950FC68F3931F22962C1A13E /* Pods-GrokBarTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6903B00D20893E27001D9A11 = {
 			isa = PBXGroup;
 			children = (
 				6903B01820893E27001D9A11 /* GrokBar */,
 				6903B02B20893E28001D9A11 /* GrokBarTests */,
 				6903B01720893E27001D9A11 /* Products */,
+				1A0B9CCDC390E748DCCE1907 /* Pods */,
+				AE5E9182CDCD5CF837418189 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +129,15 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		AE5E9182CDCD5CF837418189 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FC73496B598C330D311894E /* Pods_GrokBar.framework */,
+				F1755B8F2ACB78610C3718A6 /* Pods_GrokBarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,6 +145,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6903B03120893E28001D9A11 /* Build configuration list for PBXNativeTarget "GrokBar" */;
 			buildPhases = (
+				BD609C1ADAE200640FA02C2C /* [CP] Check Pods Manifest.lock */,
 				6903B01220893E27001D9A11 /* Sources */,
 				6903B01320893E27001D9A11 /* Frameworks */,
 				6903B01420893E27001D9A11 /* Resources */,
@@ -130,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6903B03420893E28001D9A11 /* Build configuration list for PBXNativeTarget "GrokBarTests" */;
 			buildPhases = (
+				B5F39AD70CFF9B3DA01027EF /* [CP] Check Pods Manifest.lock */,
 				6903B02420893E28001D9A11 /* Sources */,
 				6903B02520893E28001D9A11 /* Frameworks */,
 				6903B02620893E28001D9A11 /* Resources */,
@@ -200,6 +234,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5F39AD70CFF9B3DA01027EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrokBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD609C1ADAE200640FA02C2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrokBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6903B01220893E27001D9A11 /* Sources */ = {
@@ -357,6 +430,7 @@
 		};
 		6903B03220893E28001D9A11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD53859541F438897AC2EF7 /* Pods-GrokBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GrokBar/GrokBar.entitlements;
@@ -364,10 +438,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FV9NULGJG4;
 				INFOPLIST_FILE = "$(SRCROOT)/GrokBar/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -376,6 +447,7 @@
 		};
 		6903B03320893E28001D9A11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27FB84167A4E3B848458FF6C /* Pods-GrokBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GrokBar/GrokBar.entitlements;
@@ -383,10 +455,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FV9NULGJG4;
 				INFOPLIST_FILE = "$(SRCROOT)/GrokBar/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -395,6 +464,7 @@
 		};
 		6903B03520893E28001D9A11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B5533DBAE1BFF3832CDCD9 /* Pods-GrokBarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,11 +472,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZVRNHU225Q;
 				INFOPLIST_FILE = GrokBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -416,6 +482,7 @@
 		};
 		6903B03620893E28001D9A11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950FC68F3931F22962C1A13E /* Pods-GrokBarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -423,11 +490,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZVRNHU225Q;
 				INFOPLIST_FILE = GrokBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trimAgency.GrokBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
